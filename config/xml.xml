@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transactions>
+	<Types>
+		<type>type1</type>
+		<type>type2</type>
+		<type>type3</type>
+		<name>zhangsan</type>
+		<home>秦淮夫子庙</type>
+	</Types>
+<BODY>1</BODY>
+<HEAD>2</BODY>
+<LOGIN>
+	<NAME>无锡分行</NAME>
+	<USERNAME>wuxi</USERNAME>
+	<PASSWORD>abc123</PASSWORD>
+</LOGIN>
+<LOGIN>
+	<NAME>南京分行</NAME>
+	<USERNAME>nanjing</USERNAME>
+	<PASSWORD>aaaaa123</PASSWORD>
+</LOGIN>
+<LOGIN>
+	<NAME>南京分行1111</NAME>
+	<USERNAME>nanjing</USERNAME>
+	<PASSWORD>aaaaa123</PASSWORD>
+</LOGIN>
+</Transactions>
