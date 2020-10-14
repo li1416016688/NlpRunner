@@ -124,8 +124,8 @@ public class PdfReplacer {
 	        Set<Entry<String, ReplaceRegion>> entrys = replaceRegionMap.entrySet();
 	        for (Entry<String, ReplaceRegion> entry : entrys) {
 	        	ReplaceRegion value = entry.getValue();
-	        	canvas.setColorFill(BaseColor.RED);//背景色
-	        	//canvas.setColorFill(BaseColor.WHITE);
+//	        	canvas.setColorFill(BaseColor.RED);//背景色
+	        	canvas.setColorFill(BaseColor.WHITE);
 	            canvas.rectangle(value.getX(),value.getY(),value.getW(),value.getH());
 			}
 	        canvas.fill();
@@ -261,6 +261,8 @@ public class PdfReplacer {
 //			BaseFont bf = BaseFont.createFont("STSong-Light", "UniGB-UCS2-H", BaseFont.EMBEDDED);
 //			BaseFont bf = BaseFont.createFont("/System/Library/Fonts/STHeiti Medium.ttc",BaseFont.IDENTITY_H,BaseFont.NOT_EMBEDDED);
 		    font = new Font(bf,this.fontSize,Font.BOLD);
+		    font = new Font(bf,this.fontSize,Font.BOLD);
+
 		}
 	}
 	
